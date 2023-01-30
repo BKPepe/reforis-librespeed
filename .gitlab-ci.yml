@@ -1,0 +1,19 @@
+image: python:3.11-slim
+
+stages:
+  - test
+  - build
+
+before_script:
+  - apt-get update && apt-get install -y sudo make curl git
+  - make prepare-dev
+
+test:
+  stage: test
+  script:
+    - make test
+
+lint:
+  stage: test
+  script:
+    - make lint
