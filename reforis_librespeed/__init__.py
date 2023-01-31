@@ -30,17 +30,31 @@ librespeed = {
 }
 
 
-@blueprint.route('/example', methods=['GET'])
-def get_example():
-    return jsonify(current_app.backend.perform('example_module', 'example_action'))
+@blueprint.route('/settings', methods=['GET'])
+def get_settings():
+    return jsonify(current_app.backend.perform('librespeed', 'get_settings'))
 
 
-@blueprint.route('/example', methods=['POST'])
-def post_example():
-    validate_json(request.json, {'modules': list})
+@blueprint.route('/settings', methods=['POST'])
+def post_settings():
+    validate_json(request.json, {'autostart_enabled': bool})
 
-    response = current_app.backend.perform('example_module', 'example_action', request.json)
+    response = current_app.backend.perform(
+        'librespeed', 'update_settings', request.json
+    )
     if response.get('result') is not True:
-        raise APIError(_('Cannot create entity'), HTTPStatus.INTERNAL_SERVER_ERROR)
+        raise APIError(
+            _('Cannot update LibreSpeed settings.'), HTTPStatus.INTERNAL_SERVER_ERROR
+        )
 
-    return jsonify(response), HTTPStatus.CREATED
+    return jsonify(response), HTTPStatus.OK
+
+
+@blueprint.route('/data', methods=['GET'])
+def get_data():
+    return jsonify(current_app.backend.perform('librespeed', 'get_data'))
+
+
+@blueprint.route('/measure', methods=['POST'])
+def trigger_measurement():
+    return jsonify(current_app.backend.perform('librespeed', 'measure')), HTTPStatus.OK

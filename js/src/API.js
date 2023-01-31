@@ -11,7 +11,9 @@ const API_URL_PREFIX = `${REFORIS_URL_PREFIX}/librespeed/api`;
 
 const API_URLs = new Proxy(
     {
-        example: "/example",
+        settings: "/settings",
+        data: "/data",
+        measure: "/measure",
     },
     {
         get: (target, name) => `${API_URL_PREFIX}${target[name]}`,
