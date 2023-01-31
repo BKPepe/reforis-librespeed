@@ -1,19 +1,33 @@
 /*
- * Copyright (C) 2020-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
-import LibreSpeed from "./LibreSpeed/LibreSpeed";
+import React from "react";
+
+import SpeedTest from "./SpeedTest/SpeedTest";
+import Settings from "./Settings/Settings";
+import LibreSpeedIcon from "./LibreSpeedIcon";
 
 const LibreSpeedPlugin = {
-    name: _("Librespeed"),
-    weight: 100,
-    submenuId: "librespeed",
+    name: _("LibreSpeed"),
+    weight: 65,
     path: "/librespeed",
-    component: LibreSpeed,
-    icon: "cube",
+    pages: [
+        {
+            path: "/speed-test",
+            name: _("Speed Test"),
+            component: SpeedTest,
+        },
+        {
+            path: "/settings",
+            name: _("Autostart Settings"),
+            component: Settings,
+        },
+    ],
+    icon: <LibreSpeedIcon />,
 };
 
 ForisPlugins.push(LibreSpeedPlugin);
