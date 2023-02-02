@@ -6,7 +6,8 @@
     "description": "reForis LibreSpeed plugin provides a frontend to measure Internet speed, latency, and other details to the selected LibreSpeed server",
     "main": "./src/app.js",
     "dependencies": {
-        "foris": "beta"
+        "foris": "beta",
+        "react-uid": "^2.3.2"
     },
     "peerDependencies": {
         "prop-types": "^15.8.1",
