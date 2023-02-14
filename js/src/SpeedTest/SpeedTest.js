@@ -9,11 +9,11 @@ import React, { useState } from "react";
 
 import PropTypes from "prop-types";
 
+import useSpeedTest from "./hooks";
 import Results from "./Results";
+import SpeedTestButton from "./SpeedTestButton";
 import SpeedTestProgress from "./SpeedTestProgress";
 import LibreSpeed from "../LibreSpeed";
-import SpeedTestButton from "./SpeedTestButton";
-import useSpeedTest from "./hooks";
 
 SpeedTest.propTypes = {
     ws: PropTypes.object.isRequired,

@@ -17,21 +17,19 @@ SpeedTestProgress.propTypes = {
 
 export default function SpeedTestProgress({ isLoading }) {
     return (
-        <>
-            <div className="progress mb-2">
-                <div
-                    id="progressbar"
-                    className={`progress-bar progress-bar-striped progress-bar-animated ${
-                        isLoading ? "progress-bar-width" : ""
-                    } bg-success text-uppercase`}
-                    role="progressbar"
-                    aria-valuenow={isLoading ? "…" : "0"}
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                >
-                    {isLoading && <span>{_("Measuring…")}</span>}
-                </div>
+        <div className="progress mb-2">
+            <div
+                id="progressbar"
+                className={`progress-bar progress-bar-striped progress-bar-animated ${
+                    isLoading ? "progress-bar-width" : ""
+                } bg-success text-uppercase`}
+                role="progressbar"
+                aria-valuenow={isLoading ? "…" : "0"}
+                aria-valuemin="0"
+                aria-valuemax="100"
+            >
+                {isLoading && <span>{_("Measuring…")}</span>}
             </div>
-        </>
+        </div>
     );
 }

@@ -7,9 +7,9 @@
 
 import React from "react";
 
-import SpeedTest from "./SpeedTest/SpeedTest";
-import Settings from "./Settings/Settings";
 import LibreSpeedIcon from "./LibreSpeedIcon";
+import Settings from "./Settings/Settings";
+import SpeedTest from "./SpeedTest/SpeedTest";
 
 const LibreSpeedPlugin = {
     name: _("LibreSpeed"),

@@ -10,9 +10,8 @@ import React, { useEffect } from "react";
 import { Button, useAPIGet, useWSForisModule } from "foris";
 import PropTypes from "prop-types";
 
-import API_URLs from "../API";
-
 import ResultsTableWithErrorAndSpinner from "./ResultsTable";
+import API_URLs from "../API";
 
 Results.propTypes = {
     ws: PropTypes.object.isRequired,

@@ -6,8 +6,9 @@
  */
 
 import React from "react";
-import PropTypes from "prop-types";
+
 import { withErrorMessage, withSpinnerOnSending } from "foris";
+import PropTypes from "prop-types";
 
 import ResultsTableRow from "./ResultsTableRow";
 

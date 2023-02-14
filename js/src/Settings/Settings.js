@@ -7,8 +7,8 @@
 
 import React from "react";
 
-import PropTypes from "prop-types";
 import { ForisForm } from "foris";
+import PropTypes from "prop-types";
 
 import AutostartForm from "./AutostartForm";
 import API_URLs from "../API";
