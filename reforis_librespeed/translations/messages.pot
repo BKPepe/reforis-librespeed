@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reForis LibreSpeed 0.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2023-01-30 17:55+0100\n"
+"POT-Creation-Date: 2023-02-16 12:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,15 +18,89 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.11.0\n"
 
-#: js/src/app.js:11
-msgid "Librespeed"
+#: js/src/LibreSpeed.js:24
+msgid ""
+"LibreSpeed measures your internet parameters like upload, download, and "
+"response time."
 msgstr ""
 
-#: js/src/LibreSpeed/LibreSpeed.js:23
-msgid "Add your components here"
+#: js/src/app.js:15
+msgid "LibreSpeed"
 msgstr ""
 
-#: reforis_librespeed/__init__.py:44
-msgid "Cannot create entity"
+#: js/src/SpeedTest/SpeedTest.js:33 js/src/app.js:21
+msgid "Speed Test"
+msgstr ""
+
+#: js/src/Settings/AutostartForm.js:30 js/src/app.js:26
+msgid "Autostart Settings"
+msgstr ""
+
+#: js/src/Settings/AutostartForm.js:32
+msgid ""
+"Here you can enable Autostart. The measurement will occur once daily, and"
+" the time is picked randomly during the night hours."
+msgstr ""
+
+#: js/src/Settings/AutostartForm.js:37
+msgid "Enable Autostart"
+msgstr ""
+
+#: js/src/SpeedTest/Results.js:50
+msgid "Results"
+msgstr ""
+
+#: js/src/SpeedTest/Results.js:58
+msgid "Refresh"
+msgstr ""
+
+#: js/src/SpeedTest/ResultsTable.js:33
+msgid "Server"
+msgstr ""
+
+#: js/src/SpeedTest/ResultsTable.js:35
+msgid "Date and Time"
+msgstr ""
+
+#: js/src/SpeedTest/ResultsTable.js:38
+msgid "Download [Mb/s]"
+msgstr ""
+
+#: js/src/SpeedTest/ResultsTable.js:41
+msgid "Upload [Mb/s]"
+msgstr ""
+
+#: js/src/SpeedTest/ResultsTable.js:44
+msgid "Jitter [ms]"
+msgstr ""
+
+#: js/src/SpeedTest/ResultsTable.js:47
+msgid "Ping [ms]"
+msgstr ""
+
+#: js/src/SpeedTest/ResultsTable.js:62
+msgid ""
+"No tests have been performed lately. Try to start a new test or re-"
+"download data."
+msgstr ""
+
+#: js/src/SpeedTest/SpeedTestButton.js:27
+msgid "Start"
+msgstr ""
+
+#: js/src/SpeedTest/SpeedTestProgress.js:31
+msgid "Measuring…"
+msgstr ""
+
+#: js/src/SpeedTest/hooks.js:47
+msgid "Speed test finished successfully."
+msgstr ""
+
+#: js/src/SpeedTest/hooks.js:51
+msgid "Speed test failed."
+msgstr ""
+
+#: reforis_librespeed/__init__.py:47
+msgid "Cannot update LibreSpeed settings."
 msgstr ""
 
