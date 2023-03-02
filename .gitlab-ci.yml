@@ -1,0 +1,27 @@
+image: python:3.11-slim
+
+stages:
+  - test
+  - build
+
+before_script:
+  - apt-get update && apt-get install -y sudo make curl git
+  - make prepare-dev
+
+test:
+  stage: test
+  script:
+    - make test
+
+test-js-build:
+  image: node:16-bullseye-slim
+  stage: test
+  script:
+    - cd js
+    - npm install
+    - npm run-script build -- -o /tmp/app.min.js
+
+lint:
+  stage: test
+  script:
+    - make lint
