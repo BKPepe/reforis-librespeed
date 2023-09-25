@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: reForis LibreSpeed 0.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2023-02-16 12:24+0100\n"
-"PO-Revision-Date: 2023-01-30 17:55+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-09-08 11:57+0000\n"
+"Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/turris/"
+"reforis-librespeed-plugin/de/>\n"
 "Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: js/src/LibreSpeed.js:24
@@ -24,86 +26,92 @@ msgid ""
 "LibreSpeed measures your internet parameters like upload, download, and "
 "response time."
 msgstr ""
+"LibreSpeed misst Ihre Internetparameter aus, etwa Upload- und Download-"
+"Durchsatz sowie die Reaktionszeit."
 
 #: js/src/app.js:15
 msgid "LibreSpeed"
-msgstr ""
+msgstr "LibreSpeed"
 
 #: js/src/SpeedTest/SpeedTest.js:33 js/src/app.js:21
 msgid "Speed Test"
-msgstr ""
+msgstr "Geschwindigkeitstest"
 
 #: js/src/Settings/AutostartForm.js:30 js/src/app.js:26
 msgid "Autostart Settings"
-msgstr ""
+msgstr "Autostart-Einstellungen"
 
 #: js/src/Settings/AutostartForm.js:32
 msgid ""
 "Here you can enable Autostart. The measurement will occur once daily, and"
 " the time is picked randomly during the night hours."
 msgstr ""
+"Hier können Sie den Autostart aktivieren. Die Messung findet einmal täglich "
+"irgendwann in den Nachtstunden statt."
 
 #: js/src/Settings/AutostartForm.js:37
 msgid "Enable Autostart"
-msgstr ""
+msgstr "Autostart aktivieren"
 
 #: js/src/SpeedTest/Results.js:50
 msgid "Results"
-msgstr ""
+msgstr "Ergebnisse"
 
 #: js/src/SpeedTest/Results.js:58
 msgid "Refresh"
-msgstr ""
+msgstr "Neu laden"
 
 #: js/src/SpeedTest/ResultsTable.js:33
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #: js/src/SpeedTest/ResultsTable.js:35
 msgid "Date and Time"
-msgstr ""
+msgstr "Datum und Zeit"
 
 #: js/src/SpeedTest/ResultsTable.js:38
 msgid "Download [Mb/s]"
-msgstr ""
+msgstr "Download [Mb/s]"
 
 #: js/src/SpeedTest/ResultsTable.js:41
 msgid "Upload [Mb/s]"
-msgstr ""
+msgstr "Upload [Mb/s]"
 
 #: js/src/SpeedTest/ResultsTable.js:44
 msgid "Jitter [ms]"
-msgstr ""
+msgstr "Jitter [ms]"
 
 #: js/src/SpeedTest/ResultsTable.js:47
 msgid "Ping [ms]"
-msgstr ""
+msgstr "Ping [ms]"
 
 #: js/src/SpeedTest/ResultsTable.js:62
 msgid ""
 "No tests have been performed lately. Try to start a new test or re-"
 "download data."
 msgstr ""
+"In letzter Zeit gab es keine Tests. Versuchen Sie einen neuen zu starten "
+"oder die Daten noch einmal herunterzuladen."
 
 #: js/src/SpeedTest/SpeedTestButton.js:27
 msgid "Start"
-msgstr ""
+msgstr "Starten"
 
 #: js/src/SpeedTest/SpeedTestProgress.js:31
 msgid "Measuring…"
-msgstr ""
+msgstr "Messung läuft …"
 
 #: js/src/SpeedTest/hooks.js:47
 msgid "Speed test finished successfully."
-msgstr ""
+msgstr "Geschwindigkeitstest erfolgreich abgeschlossen."
 
 #: js/src/SpeedTest/hooks.js:51
 msgid "Speed test failed."
-msgstr ""
+msgstr "Geschwindigkeitstest hat nicht geklappt."
 
 #: reforis_librespeed/__init__.py:47
 msgid "Cannot update LibreSpeed settings."
-msgstr ""
+msgstr "LibreSpeed-Einstellungen können nicht aktualisiert werden."
 
 #~ msgid "Librespeed"
 #~ msgstr ""
@@ -113,4 +121,3 @@ msgstr ""
 
 #~ msgid "Cannot create entity"
 #~ msgstr ""
-
