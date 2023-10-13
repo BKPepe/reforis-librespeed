@@ -68,6 +68,8 @@ $(VENV_NAME)/bin/activate: setup.py
 
 .PHONY: install
 install:
+	opkg update
+	opkg install foris-controller-librespeed-module
 	$(PYTHON) -m pip install -e .
 	ln -sf /tmp/reforis-librespeed/reforis_static/reforis_librespeed /tmp/reforis/reforis_static/
 	/etc/init.d/lighttpd restart
