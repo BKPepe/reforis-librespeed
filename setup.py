@@ -35,8 +35,9 @@ setuptools.setup(
     version='0.1.0',
     packages=setuptools.find_packages(exclude=['tests']),
     include_package_data=True,
+
     description='reForis LibreSpeed plugin provides a frontend to measure Internet speed, latency, and other details to the selected LibreSpeed server',
-    author='CZ.NIC, z.s.p.o.',
+    author='CZ.NIC, z.s.p.o. (https://www.nic.cz/)',
     author_email='software@turris.com',
 
     install_requires=[
@@ -64,11 +65,11 @@ setuptools.setup(
     },
     classifiers=[
         'Framework :: Flask',
-        'Intended Audience :: Developers',
-        'Development Status :: 3 - Alpha',
+        'Intended Audience :: End Users/Desktop',
+        'Development Status :: 5 - Production/Stable',
         'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
         'Natural Language :: English',
-        'Operating System :: OS Independent',
+        'Operating System :: POSIX :: Linux',
         'Programming Language :: Python :: 3',
         'Topic :: Internet :: WWW/HTTP :: WSGI :: Application',
     ],
