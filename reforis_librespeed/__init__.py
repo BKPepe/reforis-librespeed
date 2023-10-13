@@ -3,6 +3,8 @@
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
 
+""" LibreSpeed plugin for reForis """
+
 from pathlib import Path
 from http import HTTPStatus
 
@@ -11,7 +13,6 @@ from flask_babel import gettext as _
 
 from reforis.foris_controller_api.utils import validate_json, APIError
 
-# pylint: disable=invalid-name
 blueprint = Blueprint(
     'LibreSpeed',
     __name__,
@@ -20,7 +21,6 @@ blueprint = Blueprint(
 
 BASE_DIR = Path(__file__).parent
 
-# pylint: disable=invalid-name
 librespeed = {
     'blueprint': blueprint,
     # Define {python_module_name}/js/app.min.js
@@ -32,11 +32,13 @@ librespeed = {
 
 @blueprint.route('/settings', methods=['GET'])
 def get_settings():
+    """ Get LibreSpeed settings """
     return jsonify(current_app.backend.perform('librespeed', 'get_settings'))
 
 
 @blueprint.route('/settings', methods=['POST'])
 def post_settings():
+    """ Update LibreSpeed settings """
     validate_json(request.json, {'autostart_enabled': bool})
 
     response = current_app.backend.perform(
@@ -52,9 +54,11 @@ def post_settings():
 
 @blueprint.route('/data', methods=['GET'])
 def get_data():
+    """ Get LibreSpeed data """
     return jsonify(current_app.backend.perform('librespeed', 'get_data'))
 
 
 @blueprint.route('/measure', methods=['POST'])
 def trigger_measurement():
+    """ Trigger LibreSpeed measurement """
     return jsonify(current_app.backend.perform('librespeed', 'measure')), HTTPStatus.OK
