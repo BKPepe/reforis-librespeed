@@ -48,7 +48,7 @@ setuptools.setup(
     extras_require={
         'devel': [
             'pytest',
-            'pylint',
+            'pylint < 3.0.0', # TODO: remove pin when https://github.com/edaniszewski/pylint-quotes/issues/29 is fixed
             'pylint-quotes',
             'pycodestyle',
             'reforis @ git+https://gitlab.nic.cz/turris/reforis/reforis#egg=reforis',
