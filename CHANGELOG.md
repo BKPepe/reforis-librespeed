@@ -8,6 +8,19 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.2.1] - 2024-01-12
+
+### Added
+
+-   Added & updated Weblate translations
+-   Added missing foris-controller module installation
+
+### Changed
+
+-   Dropped pin of Flask-Babel
+-   Dropped pylint-quotes
+-   NPM audit fix
+
 ## [0.2.0] - 2023-10-13
 
 ### Added
@@ -29,6 +42,7 @@ and this project adheres to
 
 -   Initial implementation
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v0.2.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v0.2.1...master
+[0.2.1]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v0.2.0...v0.2.1
 [0.2.0]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v0.1.0...v0.2.0
 [0.1.0]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/tags/v0.1.0

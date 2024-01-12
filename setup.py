@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-#  Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+#  Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -32,7 +32,7 @@ class LibreSpeedBuild(build_py):
 
 setuptools.setup(
     name=NAME,
-    version='0.2.0',
+    version='0.2.1',
     packages=setuptools.find_packages(exclude=['tests']),
     include_package_data=True,
 
@@ -48,8 +48,7 @@ setuptools.setup(
     extras_require={
         'devel': [
             'pytest',
-            'pylint < 3.0.0', # TODO: remove pin when https://github.com/edaniszewski/pylint-quotes/issues/29 is fixed
-            'pylint-quotes',
+            'pylint',
             'pycodestyle',
             'reforis @ git+https://gitlab.nic.cz/turris/reforis/reforis#egg=reforis',
             'werkzeug == 2.0.3',  # TODO remove pin when werkzeug is fixed see https://gitlab.nic.cz/turris/reforis/reforis/-/merge_requests/316#note_249166
