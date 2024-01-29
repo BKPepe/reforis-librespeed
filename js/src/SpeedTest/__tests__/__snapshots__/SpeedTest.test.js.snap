@@ -21,11 +21,13 @@ exports[`<SpeedTest /> Should render component. 1`] = `
         class="col-12 col-md-4 col-lg-2"
       >
         <button
-          class="btn btn btn-primary col-sm-12 mb-2"
+          class="btn btn btn-primary col-sm-12 mb-2 d-inline-flex justify-content-center align-items-center"
           id="start-test-button"
           type="button"
         >
-          Start
+          <span>
+            Start
+          </span>
         </button>
       </div>
       <div
@@ -52,11 +54,13 @@ exports[`<SpeedTest /> Should render component. 1`] = `
     <h2>
       Results
       <button
-        class="btn btn btn-outline-primary float-right mt-1"
+        class="btn btn btn-outline-primary float-right mt-1 d-inline-flex justify-content-center align-items-center"
         id="redownload-data-button"
         type="button"
       >
-        Refresh
+        <span>
+          Refresh
+        </span>
       </button>
     </h2>
     <div
