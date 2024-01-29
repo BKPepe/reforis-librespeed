@@ -1,11 +1,12 @@
 /*
- * Copyright (C) 2020-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 const path = require("path");
+const webpack = require("webpack");
 
 module.exports = () => ({
     mode: "development",
@@ -14,16 +15,16 @@ module.exports = () => ({
         // Build js app to ../reforis_static{python_module_name}/app.min.js
         // See https://gitlab.nic.cz/turris/reforis/reforis-distutils/blob/master/reforis_distutils/__init__.py#L11
         filename: "app.min.js",
-        path: path.join(
-            __dirname,
-            "../reforis_static/reforis_librespeed/js/"
-        ),
+        path: path.join(__dirname, "../reforis_static/reforis_librespeed/js/"),
     },
     resolve: {
         modules: [
             path.resolve(__dirname, "./src"),
             path.resolve(__dirname, "./node_modules"),
         ],
+        alias: {
+            process: "process/browser",
+        },
     },
     module: {
         rules: [
@@ -38,6 +39,11 @@ module.exports = () => ({
             },
         ],
     },
+    plugins: [
+        new webpack.ProvidePlugin({
+            process: "process/browser",
+        }),
+    ],
     // Equal to peerDependencies in package.json
     externals: {
         "prop-types": "PropTypes",
