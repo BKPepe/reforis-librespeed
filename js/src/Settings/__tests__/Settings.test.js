@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -38,8 +38,11 @@ describe("<Settings />", () => {
     });
 
     it("Should change form value when enabled.", () => {
-        fireEvent.click(getByText("Enable Autostart"));
-        fireEvent.click(getByText("Save"));
+        const autostartCheckbox = getByText("Enable Autostart");
+        const saveButton = container.querySelector("button.btn[type='submit']");
+
+        fireEvent.click(autostartCheckbox);
+        fireEvent.click(saveButton);
 
         expect(mockAxios.post).toBeCalled();
         const data = {
