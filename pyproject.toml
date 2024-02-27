@@ -1,0 +1,61 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "reforis-librespeed"
+version = "0.2.1"
+description = "reForis LibreSpeed plugin provides a frontend to measure Internet speed, latency, and other details to the selected LibreSpeed server"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+authors = [
+    { name = "CZ.NIC, z.s.p.o. (https://www.nic.cz/)", email = "software@turris.com" },
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: Flask",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
+]
+dependencies = [
+    "Babel",
+    "flask",
+    "Flask-Babel",
+    "reforis",
+]
+
+[project.optional-dependencies]
+devel = [
+    "pycodestyle",
+    "pylint",
+    "pytest",
+    "werkzeug",
+]
+
+[project.entry-points."foris.plugins"]
+reforis_librespeed = "reforis_librespeed:librespeed"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/js",
+    "/reforis_librespeed",
+    "/reforis_static",
+]
+
+[tool.hatch.build.targets.wheel.hooks.reforis]
+dependencies = ["hatch-reforis"]
+reforis_module = "reforis_librespeed"
+
+[tool.hatch.build.targets.wheel]
+include = [
+    "/reforis_librespeed",
+    "/reforis_static",
+]
+exclude = [
+    "**/*.po",
+    "**/*.pot",
+]
