@@ -1,14 +1,14 @@
 # English translations for reForis LibreSpeed.
-# Copyright (C) 2023 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis LibreSpeed
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: reForis LibreSpeed 0.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2023-02-16 12:24+0100\n"
+"POT-Creation-Date: 2024-02-27 17:47+0100\n"
 "PO-Revision-Date: 2023-01-30 17:55+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.14.0\n"
 
 #: js/src/LibreSpeed.js:24
 msgid ""
@@ -101,7 +101,7 @@ msgstr ""
 msgid "Speed test failed."
 msgstr ""
 
-#: reforis_librespeed/__init__.py:47
+#: reforis_librespeed/__init__.py:49
 msgid "Cannot update LibreSpeed settings."
 msgstr ""
 
