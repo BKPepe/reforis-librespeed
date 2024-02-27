@@ -30,9 +30,8 @@ dependencies = [
 
 [project.optional-dependencies]
 devel = [
-    "pycodestyle",
-    "pylint",
     "pytest",
+    "ruff",
     "werkzeug",
 ]
 
@@ -59,3 +58,6 @@ exclude = [
     "**/*.po",
     "**/*.pot",
 ]
+
+[tool.ruff]
+line-length = 120
