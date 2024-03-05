@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "reforis-librespeed"
-version = "0.2.1"
+version = "1.0.0"
 description = "reForis LibreSpeed plugin provides a frontend to measure Internet speed, latency, and other details to the selected LibreSpeed server"
 readme = "README.md"
 license = "GPL-3.0-or-later"
@@ -30,9 +30,8 @@ dependencies = [
 
 [project.optional-dependencies]
 devel = [
-    "pycodestyle",
-    "pylint",
     "pytest",
+    "ruff",
     "werkzeug",
 ]
 
@@ -59,3 +58,6 @@ exclude = [
     "**/*.po",
     "**/*.pot",
 ]
+
+[tool.ruff]
+line-length = 120

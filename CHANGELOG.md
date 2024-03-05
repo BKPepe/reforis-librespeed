@@ -8,6 +8,23 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.0.0] - 2024-03-05
+
+### Added
+
+-   Added repository URL to package.json and updated eslint version
+
+### Changed
+
+-   Updated Webpack to v5 & plugins to latest versions
+-   Updated dependencies
+-   Updated Node.js version to v21 in Makefile
+-   Updated eslint-config-reforis to v2.1.1
+-   Updated CI to use shared scripts, build and publish python package
+-   Updated .gitignore to include license and text files
+-   Changed build system to hatch
+-   Replaced Pylint & Pycodestyle for Ruff
+
 ## [0.2.1] - 2024-01-12
 
 ### Added
@@ -42,7 +59,8 @@ and this project adheres to
 
 -   Initial implementation
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v0.2.1...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v1.0.0...master
+[1.0.0]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v0.2.1...v1.0.0
 [0.2.1]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v0.2.0...v0.2.1
 [0.2.0]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v0.1.0...v0.2.0
 [0.1.0]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/tags/v0.1.0

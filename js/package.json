@@ -1,8 +1,12 @@
 {
     "name": "reforis_librespeed",
     "author": "CZ.NIC, z.s.p.o.",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.nic.cz/turris/reforis/reforis-librespeed.git"
+    },
     "license": "GPL-3.0",
-    "version": "0.2.1",
+    "version": "1.0.0",
     "description": "reForis LibreSpeed plugin provides a frontend to measure Internet speed, latency, and other details to the selected LibreSpeed server",
     "main": "./src/app.js",
     "eslintConfig": {
@@ -28,19 +32,19 @@
         "@testing-library/react": "^8.0.9",
         "babel-loader": "^8.0.6",
         "css-loader": "^3.4.1",
-        "eslint": "^8.34.0",
-        "eslint-config-reforis": "^2.1.0",
+        "eslint": "^8.56.0",
+        "eslint-config-reforis": "^2.1.1",
         "jest": "^24.9.0",
         "jest-mock-axios": "^3.2.0",
-        "moment-timezone": "^0.5.44",
-        "prettier": "^2.8.4",
+        "moment-timezone": "^0.5.45",
+        "prettier": "^3.2.5",
         "process": "^0.11.10",
         "prop-types": "^15.8.1",
         "react": "16.9.0",
         "react-dom": "16.9.0",
         "react-router-dom": "5.1.2",
         "style-loader": "^0.23.1",
-        "webpack": "^5.90.0",
+        "webpack": "^5.90.3",
         "webpack-cli": "^5.1.4"
     },
     "scripts": {

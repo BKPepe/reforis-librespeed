@@ -1,4 +1,4 @@
-#  Copyright (C) 2020-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+#  Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -47,7 +47,7 @@ all:
 
 .PHONY: prepare-dev
 prepare-dev:
-	which npm || curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+	which npm || curl -sL https://deb.nodesource.com/setup_21.x | sudo -E bash -
 	which npm || sudo apt-get install -y nodejs
 	cd $(JS_DIR); npm install
 
@@ -110,8 +110,7 @@ lint-js-fix:
 
 .PHONY: lint-web
 lint-web: venv
-	$(VENV_BIN)/$(PYTHON) -m pylint --rcfile=pylintrc reforis_librespeed
-	$(VENV_BIN)/$(PYTHON) -m pycodestyle --config=pycodestyle reforis_librespeed
+	$(VENV_BIN)/$(PYTHON) -m ruff check reforis_librespeed
 
 
 # Testing
