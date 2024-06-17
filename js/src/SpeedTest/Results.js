@@ -50,7 +50,7 @@ function Results({ ws, asyncId }) {
                 {_("Results")}
                 <Button
                     id="redownload-data-button"
-                    className="btn btn-outline-primary float-right mt-1"
+                    className="btn btn-outline-primary float-end"
                     loading={buttonIsDisabled}
                     disabled={buttonIsDisabled}
                     onClick={getDataRequest}
