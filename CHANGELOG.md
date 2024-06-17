@@ -8,6 +8,17 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.1.0] - 2024-06-17
+
+### Changed
+
+-   Updated Foris JS library to v6.0.0
+-   NPM audit fix
+
+### Removed
+
+-   Removed unused files and dependencies
+
 ## [1.0.0] - 2024-03-05
 
 ### Added
@@ -59,7 +70,8 @@ and this project adheres to
 
 -   Initial implementation
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v1.0.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v1.1.0...master
+[1.1.0]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v1.0.0...v1.1.0
 [1.0.0]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v0.2.1...v1.0.0
 [0.2.1]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v0.2.0...v0.2.1
 [0.2.0]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v0.1.0...v0.2.0
