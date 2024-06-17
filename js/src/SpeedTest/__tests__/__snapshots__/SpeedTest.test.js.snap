@@ -54,7 +54,7 @@ exports[`<SpeedTest /> Should render component. 1`] = `
     <h2>
       Results
       <button
-        class="btn btn btn-outline-primary float-right mt-1 d-inline-flex justify-content-center align-items-center"
+        class="btn btn btn-outline-primary float-end d-inline-flex justify-content-center align-items-center"
         id="redownload-data-button"
         type="button"
       >
