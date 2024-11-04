@@ -31,16 +31,12 @@ export default function SpeedTest({ ws }) {
         <LibreSpeed>
             <div className="card p-4 col-sm-12 col-lg-12 mb-4">
                 <h2>{_("Speed Test")}</h2>
-                <div className="row mb-2">
-                    <div className="col-12 col-md-4 col-lg-2">
-                        <SpeedTestButton
-                            onClickHandler={onClickHandler}
-                            isLoading={isLoading}
-                        />
-                    </div>
-                    <div className="col-12 col-md-8 col-lg-10">
-                        <SpeedTestProgress isLoading={isLoading} />
-                    </div>
+                <div className="d-flex flex-column flex-sm-row gap-2">
+                    <SpeedTestButton
+                        onClickHandler={onClickHandler}
+                        isLoading={isLoading}
+                    />
+                    <SpeedTestProgress isLoading={isLoading} />
                 </div>
             </div>
             <Results ws={ws} asyncId={testAsyncId} />

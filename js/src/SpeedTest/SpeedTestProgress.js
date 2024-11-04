@@ -17,7 +17,7 @@ SpeedTestProgress.propTypes = {
 
 export default function SpeedTestProgress({ isLoading }) {
     return (
-        <div className="progress mb-2">
+        <div className="progress w-100">
             <div
                 id="progressbar"
                 className={`progress-bar progress-bar-striped progress-bar-animated ${
