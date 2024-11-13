@@ -19,10 +19,11 @@ export default function StartTestButton({ onClickHandler, isLoading }) {
     return (
         <Button
             id="start-test-button"
-            className="btn btn-primary col-sm-12 mb-2"
+            className="btn btn-primary"
             loading={isLoading}
             disabled={isLoading}
             onClick={onClickHandler}
+            style={{ minWidth: "160px" }}
         >
             {_("Start")}
         </Button>

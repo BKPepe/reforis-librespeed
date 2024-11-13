@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,10 +7,9 @@
 
 import React from "react";
 
-import { withErrorMessage, withSpinnerOnSending } from "foris";
+import { withErrorMessage, withSpinnerOnSending, RichTable } from "foris";
+import moment from "moment";
 import PropTypes from "prop-types";
-
-import ResultsTableRow from "./ResultsTableRow";
 
 ResultsTable.propTypes = {
     performed_tests: PropTypes.arrayOf(
@@ -25,38 +24,49 @@ ResultsTable.propTypes = {
 };
 
 function ResultsTable({ performed_tests: tests }) {
-    return tests.length ? (
-        <div className="table-responsive">
-            <table className="table table-hover">
-                <thead className="thead-light">
-                    <tr>
-                        <th scope="col">{_("Server")}</th>
-                        <th scope="col" className="text-center">
-                            {_("Date and Time")}
-                        </th>
-                        <th scope="col" className="text-center">
-                            {_("Download [Mb/s]")}
-                        </th>
-                        <th scope="col" className="text-center">
-                            {_("Upload [Mb/s]")}
-                        </th>
-                        <th scope="col" className="text-center">
-                            {_("Jitter [ms]")}
-                        </th>
-                        <th scope="col" className="text-right">
-                            {_("Ping [ms]")}
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {tests
-                        .sort((a, b) => b.time.localeCompare(a.time))
-                        .map((test) => (
-                            <ResultsTableRow key={test.time} test={test} />
-                        ))}
-                </tbody>
-            </table>
-        </div>
+    const columns = [
+        {
+            accessorKey: "server",
+            header: _("Server"),
+        },
+        {
+            accessorKey: "time",
+            header: _("Date and time"),
+        },
+        {
+            accessorKey: "speed_download",
+            header: _("Download [Mb/s]"),
+        },
+        {
+            accessorKey: "speed_upload",
+            header: _("Upload [Mb/s]"),
+        },
+        {
+            accessorKey: "jitter",
+            header: _("Jitter [ms]"),
+        },
+        {
+            accessorKey: "ping",
+            header: _("Ping [ms]"),
+        },
+    ];
+
+    const localizedFormattedTime = (time) =>
+        moment(time).locale(ForisTranslations.locale).format("l LT");
+
+    const data = tests
+        .map((test) => ({
+            server: test.server,
+            time: localizedFormattedTime(test.time),
+            speed_download: test.speed_download,
+            speed_upload: test.speed_upload,
+            jitter: test.jitter,
+            ping: test.ping,
+        }))
+        .sort((a, b) => new Date(b.time) - new Date(a.time));
+
+    return tests.length > 0 ? (
+        <RichTable columns={columns} data={data} withPagination />
     ) : (
         <p className="text-muted text-center py-2">
             {_(

@@ -15,41 +15,34 @@ exports[`<SpeedTest /> Should render component. 1`] = `
       Speed Test
     </h2>
     <div
-      class="row mb-2"
+      class="d-flex flex-column flex-sm-row gap-2"
     >
-      <div
-        class="col-12 col-md-4 col-lg-2"
+      <button
+        class="btn btn btn-primary d-inline-flex justify-content-center align-items-center"
+        id="start-test-button"
+        style="min-width: 160px;"
+        type="button"
       >
-        <button
-          class="btn btn btn-primary col-sm-12 mb-2 d-inline-flex justify-content-center align-items-center"
-          id="start-test-button"
-          type="button"
-        >
-          <span>
-            Start
-          </span>
-        </button>
-      </div>
+        <span>
+          Start
+        </span>
+      </button>
       <div
-        class="col-12 col-md-8 col-lg-10"
+        class="progress w-100"
       >
         <div
-          class="progress mb-2"
-        >
-          <div
-            aria-valuemax="100"
-            aria-valuemin="0"
-            aria-valuenow="0"
-            class="progress-bar progress-bar-striped progress-bar-animated  bg-success text-uppercase"
-            id="progressbar"
-            role="progressbar"
-          />
-        </div>
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="0"
+          class="progress-bar progress-bar-striped progress-bar-animated  bg-success text-uppercase"
+          id="progressbar"
+          role="progressbar"
+        />
       </div>
     </div>
   </div>
   <div
-    class="card p-4 col-sm-12 col-lg-12 mb-4"
+    class="card p-4 col-sm-12 col-lg-12 mb-0"
   >
     <h2>
       Results
@@ -67,142 +60,272 @@ exports[`<SpeedTest /> Should render component. 1`] = `
       class="table-responsive"
     >
       <table
-        class="table table-hover"
+        class="table table-hover text-nowrap"
       >
         <thead
           class="thead-light"
         >
-          <tr>
+          <tr
+            role="row"
+          >
             <th
-              scope="col"
+              colspan="1"
             >
-              Server
+              <button
+                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                title="Sort ascending"
+                type="button"
+              >
+                Server
+              </button>
             </th>
             <th
-              class="text-center"
-              scope="col"
+              colspan="1"
             >
-              Date and Time
+              <button
+                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                title="Sort ascending"
+                type="button"
+              >
+                Date and time
+              </button>
             </th>
             <th
-              class="text-center"
-              scope="col"
+              colspan="1"
             >
-              Download [Mb/s]
+              <button
+                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                title="Sort descending"
+                type="button"
+              >
+                Download [Mb/s]
+              </button>
             </th>
             <th
-              class="text-center"
-              scope="col"
+              colspan="1"
             >
-              Upload [Mb/s]
+              <button
+                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                title="Sort descending"
+                type="button"
+              >
+                Upload [Mb/s]
+              </button>
             </th>
             <th
-              class="text-center"
-              scope="col"
+              colspan="1"
             >
-              Jitter [ms]
+              <button
+                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                title="Sort descending"
+                type="button"
+              >
+                Jitter [ms]
+              </button>
             </th>
             <th
-              class="text-right"
-              scope="col"
+              colspan="1"
             >
-              Ping [ms]
+              <button
+                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                title="Sort descending"
+                type="button"
+              >
+                Ping [ms]
+              </button>
             </th>
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr
+            class="align-middle"
+          >
             <td>
               Prague, Czech Republic (CESNET)
             </td>
-            <td
-              class="text-center"
-            >
+            <td>
               2/9/2023 6:46 PM
             </td>
-            <td
-              class="text-center"
-            >
+            <td>
               800.07
             </td>
-            <td
-              class="text-center"
-            >
+            <td>
               35.55
             </td>
-            <td
-              class="text-center"
-            >
+            <td>
               0.3
             </td>
-            <td
-              class="text-right"
-            >
+            <td>
               15.91
             </td>
           </tr>
-          <tr>
+          <tr
+            class="align-middle"
+          >
             <td>
               Prague, Czech Republic (CESNET)
             </td>
-            <td
-              class="text-center"
-            >
+            <td>
               2/9/2023 6:45 PM
             </td>
-            <td
-              class="text-center"
-            >
+            <td>
               664.07
             </td>
-            <td
-              class="text-center"
-            >
+            <td>
               35.55
             </td>
-            <td
-              class="text-center"
-            >
+            <td>
               0.2
             </td>
-            <td
-              class="text-right"
-            >
+            <td>
               7.91
             </td>
           </tr>
-          <tr>
+          <tr
+            class="align-middle"
+          >
             <td>
               Prague, Czech Republic (CESNET)
             </td>
-            <td
-              class="text-center"
-            >
+            <td>
               2/9/2023 6:44 PM
             </td>
-            <td
-              class="text-center"
-            >
+            <td>
               663.07
             </td>
-            <td
-              class="text-center"
-            >
+            <td>
               35.55
             </td>
-            <td
-              class="text-center"
-            >
+            <td>
               0.1
             </td>
-            <td
-              class="text-right"
-            >
+            <td>
               1
             </td>
           </tr>
         </tbody>
       </table>
+      <nav
+        aria-label="Pagination navigation bar"
+        class="d-flex gap-2 justify-content-start align-items-center mx-2 mb-1 text-nowrap"
+      >
+        <ul
+          class="pagination pagination-sm mb-0"
+        >
+          <li
+            class="page-item disabled"
+            style="cursor: not-allowed;"
+          >
+            <button
+              aria-label="First page"
+              class="page-link"
+              disabled=""
+              type="button"
+            >
+              <i
+                class="fa"
+              />
+            </button>
+          </li>
+          <li
+            class="page-item disabled"
+            style="cursor: not-allowed;"
+          >
+            <button
+              aria-label="Previous page"
+              class="page-link"
+              disabled=""
+              type="button"
+            >
+              <i
+                class="fa"
+              />
+            </button>
+          </li>
+          <li
+            class="page-item disabled"
+            style="cursor: not-allowed;"
+          >
+            <button
+              aria-label="Next page"
+              class="page-link"
+              disabled=""
+              type="button"
+            >
+              <i
+                class="fa"
+              />
+            </button>
+          </li>
+          <li
+            class="page-item disabled"
+            style="cursor: not-allowed;"
+          >
+            <button
+              aria-label="Last page"
+              class="page-link"
+              disabled=""
+              type="button"
+            >
+              <i
+                class="fa"
+              />
+            </button>
+          </li>
+        </ul>
+        <span>
+          Page 
+          <span
+            class="fw-bold"
+          >
+            1 of 1
+          </span>
+        </span>
+        <div
+          class="vr mx-1 align-self-center"
+          style="height: 1.5rem;"
+        />
+        <span>
+          Rows per page:
+        </span>
+        <select
+          aria-label="Select rows per page"
+          class="form-select form-select-sm w-auto"
+        >
+          <option
+            value="5"
+          >
+            5
+          </option>
+          <option
+            value="10"
+          >
+            10
+          </option>
+          <option
+            value="25"
+          >
+            25
+          </option>
+          <option
+            value="3"
+          >
+            All
+          </option>
+        </select>
+      </nav>
     </div>
   </div>
 </DocumentFragment>

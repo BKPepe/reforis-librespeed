@@ -45,7 +45,7 @@ function Results({ ws, asyncId }) {
     const buttonIsDisabled = getDataState.state !== "success";
 
     return (
-        <div className="card p-4 col-sm-12 col-lg-12 mb-4">
+        <div className="card p-4 col-sm-12 col-lg-12 mb-0">
             <h2>
                 {_("Results")}
                 <Button
