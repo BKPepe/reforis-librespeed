@@ -68,7 +68,7 @@ function ResultsTable({ performed_tests: tests }) {
     return tests.length > 0 ? (
         <RichTable columns={columns} data={data} withPagination />
     ) : (
-        <p className="text-muted text-center py-2">
+        <p className="text-muted text-center mb-0">
             {_(
                 "No tests have been performed lately. Try to start a new test or re-download data."
             )}
