@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reForis LibreSpeed 0.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2024-02-27 17:47+0100\n"
+"POT-Creation-Date: 2024-11-28 15:50+0100\n"
 "PO-Revision-Date: 2023-09-08 11:57+0000\n"
 "Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
 "Language: de\n"
@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: js/src/LibreSpeed.js:24
 msgid ""
@@ -52,39 +52,40 @@ msgstr ""
 msgid "Enable Autostart"
 msgstr "Autostart aktivieren"
 
-#: js/src/SpeedTest/Results.js:50
+#: js/src/SpeedTest/Results.js:60
 msgid "Results"
 msgstr "Ergebnisse"
 
-#: js/src/SpeedTest/Results.js:58
+#: js/src/SpeedTest/Results.js:71
 msgid "Refresh"
 msgstr "Neu laden"
 
-#: js/src/SpeedTest/ResultsTable.js:33
+#: js/src/SpeedTest/ResultsTable.js:30
 msgid "Server"
 msgstr "Server"
 
-#: js/src/SpeedTest/ResultsTable.js:35
-msgid "Date and Time"
+#: js/src/SpeedTest/ResultsTable.js:34
+#, fuzzy
+msgid "Date and time"
 msgstr "Datum und Zeit"
 
 #: js/src/SpeedTest/ResultsTable.js:38
 msgid "Download [Mb/s]"
 msgstr "Download [Mb/s]"
 
-#: js/src/SpeedTest/ResultsTable.js:41
+#: js/src/SpeedTest/ResultsTable.js:42
 msgid "Upload [Mb/s]"
 msgstr "Upload [Mb/s]"
 
-#: js/src/SpeedTest/ResultsTable.js:44
+#: js/src/SpeedTest/ResultsTable.js:46
 msgid "Jitter [ms]"
 msgstr "Jitter [ms]"
 
-#: js/src/SpeedTest/ResultsTable.js:47
+#: js/src/SpeedTest/ResultsTable.js:50
 msgid "Ping [ms]"
 msgstr "Ping [ms]"
 
-#: js/src/SpeedTest/ResultsTable.js:62
+#: js/src/SpeedTest/ResultsTable.js:72
 msgid ""
 "No tests have been performed lately. Try to start a new test or re-"
 "download data."
@@ -92,7 +93,7 @@ msgstr ""
 "In letzter Zeit gab es keine Tests. Versuchen Sie einen neuen zu starten "
 "oder die Daten noch einmal herunterzuladen."
 
-#: js/src/SpeedTest/SpeedTestButton.js:27
+#: js/src/SpeedTest/SpeedTestButton.js:28
 msgid "Start"
 msgstr "Starten"
 
