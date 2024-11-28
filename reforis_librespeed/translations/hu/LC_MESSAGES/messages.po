@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reForis LibreSpeed 0.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2024-02-27 17:47+0100\n"
+"POT-Creation-Date: 2024-11-28 15:50+0100\n"
 "PO-Revision-Date: 2023-01-30 17:55+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: hu\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: js/src/LibreSpeed.js:24
 msgid ""
@@ -47,45 +47,45 @@ msgstr ""
 msgid "Enable Autostart"
 msgstr ""
 
-#: js/src/SpeedTest/Results.js:50
+#: js/src/SpeedTest/Results.js:60
 msgid "Results"
 msgstr ""
 
-#: js/src/SpeedTest/Results.js:58
+#: js/src/SpeedTest/Results.js:71
 msgid "Refresh"
 msgstr ""
 
-#: js/src/SpeedTest/ResultsTable.js:33
+#: js/src/SpeedTest/ResultsTable.js:30
 msgid "Server"
 msgstr ""
 
-#: js/src/SpeedTest/ResultsTable.js:35
-msgid "Date and Time"
+#: js/src/SpeedTest/ResultsTable.js:34
+msgid "Date and time"
 msgstr ""
 
 #: js/src/SpeedTest/ResultsTable.js:38
 msgid "Download [Mb/s]"
 msgstr ""
 
-#: js/src/SpeedTest/ResultsTable.js:41
+#: js/src/SpeedTest/ResultsTable.js:42
 msgid "Upload [Mb/s]"
 msgstr ""
 
-#: js/src/SpeedTest/ResultsTable.js:44
+#: js/src/SpeedTest/ResultsTable.js:46
 msgid "Jitter [ms]"
 msgstr ""
 
-#: js/src/SpeedTest/ResultsTable.js:47
+#: js/src/SpeedTest/ResultsTable.js:50
 msgid "Ping [ms]"
 msgstr ""
 
-#: js/src/SpeedTest/ResultsTable.js:62
+#: js/src/SpeedTest/ResultsTable.js:72
 msgid ""
 "No tests have been performed lately. Try to start a new test or re-"
 "download data."
 msgstr ""
 
-#: js/src/SpeedTest/SpeedTestButton.js:27
+#: js/src/SpeedTest/SpeedTestButton.js:28
 msgid "Start"
 msgstr ""
 
@@ -112,5 +112,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Cannot create entity"
+#~ msgstr ""
+
+#~ msgid "Date and Time"
 #~ msgstr ""
 

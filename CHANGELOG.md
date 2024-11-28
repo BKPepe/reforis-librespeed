@@ -8,6 +8,19 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.2.0] - 2024-11-28
+
+### Added
+
+-   Add FontAwesome v6 library
+-   Added & updated Weblate translations
+
+### Changed
+
+-   Updated Foris JS library to version 6.5.0
+-   Refactored refresh button with FontAwesome icon
+-   Refactored ResultsTable to use RichTable for improved performance and enhanced usability
+
 ## [1.1.0] - 2024-06-17
 
 ### Changed
@@ -70,7 +83,8 @@ and this project adheres to
 
 -   Initial implementation
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v1.1.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v1.2.0...master
+[1.2.0]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v1.1.0...v1.2.0
 [1.1.0]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v1.0.0...v1.1.0
 [1.0.0]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v0.2.1...v1.0.0
 [0.2.1]: https://gitlab.nic.cz/turris/reforis/reforis-librespeed/-/compare/v0.2.0...v0.2.1
