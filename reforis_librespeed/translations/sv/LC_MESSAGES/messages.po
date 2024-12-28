@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: reForis LibreSpeed 0.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2024-11-28 15:50+0100\n"
-"PO-Revision-Date: 2023-01-30 17:55+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-12-29 08:00+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/turris/"
+"reforis-librespeed-plugin/sv/>\n"
 "Language: sv\n"
-"Language-Team: sv <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: js/src/LibreSpeed.js:24
@@ -24,10 +26,12 @@ msgid ""
 "LibreSpeed measures your internet parameters like upload, download, and "
 "response time."
 msgstr ""
+"LibreSpeed mäter dina internet-parametrar så som uppladdning, hämtning och "
+"svarstid."
 
 #: js/src/app.js:15
 msgid "LibreSpeed"
-msgstr ""
+msgstr "LibreSpeed"
 
 #: js/src/SpeedTest/SpeedTest.js:33 js/src/app.js:21
 msgid "Speed Test"
@@ -42,6 +46,8 @@ msgid ""
 "Here you can enable Autostart. The measurement will occur once daily, and"
 " the time is picked randomly during the night hours."
 msgstr ""
+"Här kan du aktivera Autostart. Mätningen kommer att inträffa en gång per "
+"dag, och tiden väljs slumpmässigt ut under nattens timmar."
 
 #: js/src/Settings/AutostartForm.js:37
 msgid "Enable Autostart"
@@ -49,19 +55,19 @@ msgstr ""
 
 #: js/src/SpeedTest/Results.js:60
 msgid "Results"
-msgstr ""
+msgstr "Resultat"
 
 #: js/src/SpeedTest/Results.js:71
 msgid "Refresh"
-msgstr ""
+msgstr "Uppdatera"
 
 #: js/src/SpeedTest/ResultsTable.js:30
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #: js/src/SpeedTest/ResultsTable.js:34
 msgid "Date and time"
-msgstr ""
+msgstr "Datum och tid"
 
 #: js/src/SpeedTest/ResultsTable.js:38
 msgid "Download [Mb/s]"
@@ -77,33 +83,35 @@ msgstr ""
 
 #: js/src/SpeedTest/ResultsTable.js:50
 msgid "Ping [ms]"
-msgstr ""
+msgstr "Ping [ms]"
 
 #: js/src/SpeedTest/ResultsTable.js:72
 msgid ""
 "No tests have been performed lately. Try to start a new test or re-"
 "download data."
 msgstr ""
+"Inga tester har utförts nyligen. Prova att starta ett nytt test eller hämta "
+"datan igen."
 
 #: js/src/SpeedTest/SpeedTestButton.js:28
 msgid "Start"
-msgstr ""
+msgstr "Starta"
 
 #: js/src/SpeedTest/SpeedTestProgress.js:31
 msgid "Measuring…"
-msgstr ""
+msgstr "Mäter…"
 
 #: js/src/SpeedTest/hooks.js:47
 msgid "Speed test finished successfully."
-msgstr ""
+msgstr "Hastighetstestet avslutades framgångsrikt."
 
 #: js/src/SpeedTest/hooks.js:51
 msgid "Speed test failed."
-msgstr ""
+msgstr "Hastighetstestet misslyckades."
 
 #: reforis_librespeed/__init__.py:49
 msgid "Cannot update LibreSpeed settings."
-msgstr ""
+msgstr "Kan inte uppdatera inställningarna för LibreSpeed."
 
 #~ msgid "Librespeed"
 #~ msgstr ""
@@ -116,4 +124,3 @@ msgstr ""
 
 #~ msgid "Date and Time"
 #~ msgstr ""
-
