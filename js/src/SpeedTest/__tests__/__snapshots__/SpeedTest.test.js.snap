@@ -61,276 +61,289 @@ exports[`<SpeedTest /> Should render component. 1`] = `
         </span>
       </button>
     </h2>
-    <div
-      class="table-responsive"
-    >
-      <table
-        class="table table-hover text-nowrap"
+    <div>
+      <div
+        class="d-flex justify-content-between align-items-center"
       >
-        <thead
-          class="thead-light"
-        >
-          <tr
-            role="row"
-          >
-            <th
-              colspan="1"
-            >
-              <button
-                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                title="Sort ascending"
-                type="button"
-              >
-                Server
-              </button>
-            </th>
-            <th
-              colspan="1"
-            >
-              <button
-                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                title="Sort ascending"
-                type="button"
-              >
-                Date and time
-              </button>
-            </th>
-            <th
-              colspan="1"
-            >
-              <button
-                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                title="Sort descending"
-                type="button"
-              >
-                Download [Mb/s]
-              </button>
-            </th>
-            <th
-              colspan="1"
-            >
-              <button
-                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                title="Sort descending"
-                type="button"
-              >
-                Upload [Mb/s]
-              </button>
-            </th>
-            <th
-              colspan="1"
-            >
-              <button
-                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                title="Sort descending"
-                type="button"
-              >
-                Jitter [ms]
-              </button>
-            </th>
-            <th
-              colspan="1"
-            >
-              <button
-                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                title="Sort descending"
-                type="button"
-              >
-                Ping [ms]
-              </button>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr
-            class="align-middle"
-          >
-            <td>
-              Prague, Czech Republic (CESNET)
-            </td>
-            <td>
-              2/9/2023 6:46 PM
-            </td>
-            <td>
-              800.07
-            </td>
-            <td>
-              35.55
-            </td>
-            <td>
-              0.3
-            </td>
-            <td>
-              15.91
-            </td>
-          </tr>
-          <tr
-            class="align-middle"
-          >
-            <td>
-              Prague, Czech Republic (CESNET)
-            </td>
-            <td>
-              2/9/2023 6:45 PM
-            </td>
-            <td>
-              664.07
-            </td>
-            <td>
-              35.55
-            </td>
-            <td>
-              0.2
-            </td>
-            <td>
-              7.91
-            </td>
-          </tr>
-          <tr
-            class="align-middle"
-          >
-            <td>
-              Prague, Czech Republic (CESNET)
-            </td>
-            <td>
-              2/9/2023 6:44 PM
-            </td>
-            <td>
-              663.07
-            </td>
-            <td>
-              35.55
-            </td>
-            <td>
-              0.1
-            </td>
-            <td>
-              1
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <nav
-        aria-label="Pagination navigation bar"
-        class="d-flex gap-2 justify-content-start align-items-center mx-2 mb-1 text-nowrap"
-      >
-        <ul
-          class="pagination pagination-sm mb-0"
-        >
-          <li
-            class="page-item disabled"
-            style="cursor: not-allowed;"
-          >
-            <button
-              aria-label="First page"
-              class="page-link"
-              disabled=""
-              type="button"
-            >
-              <i
-                class="fa"
-              />
-            </button>
-          </li>
-          <li
-            class="page-item disabled"
-            style="cursor: not-allowed;"
-          >
-            <button
-              aria-label="Previous page"
-              class="page-link"
-              disabled=""
-              type="button"
-            >
-              <i
-                class="fa"
-              />
-            </button>
-          </li>
-          <li
-            class="page-item disabled"
-            style="cursor: not-allowed;"
-          >
-            <button
-              aria-label="Next page"
-              class="page-link"
-              disabled=""
-              type="button"
-            >
-              <i
-                class="fa"
-              />
-            </button>
-          </li>
-          <li
-            class="page-item disabled"
-            style="cursor: not-allowed;"
-          >
-            <button
-              aria-label="Last page"
-              class="page-link"
-              disabled=""
-              type="button"
-            >
-              <i
-                class="fa"
-              />
-            </button>
-          </li>
-        </ul>
-        <span>
-          Page 
-          <span
-            class="fw-bold"
-          >
-            1 of 1
-          </span>
-        </span>
         <div
-          class="vr mx-1 align-self-center"
-          style="height: 1.5rem;"
-        />
-        <span>
-          Rows per page:
-        </span>
-        <select
-          aria-label="Select rows per page"
-          class="form-select form-select-sm w-auto"
+          class="mb-3"
         >
-          <option
-            value="5"
+          <div
+            class="input-group"
           >
-            5
-          </option>
-          <option
-            value="10"
+            <input
+              class="form-control me-3"
+              id="1"
+              placeholder="Search…"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="dropdown mb-3"
+        >
+          <button
+            class="btn btn btn-outline-secondary dropdown-toggle d-inline-flex justify-content-center align-items-center"
+            data-bs-toggle="dropdown"
+            type="button"
           >
-            10
-          </option>
-          <option
-            value="25"
+            <span>
+              Columns
+            </span>
+          </button>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
           >
-            25
-          </option>
-          <option
-            value="3"
+            <li>
+              <button
+                class="dropdown-item d-flex align-items-center"
+                style="padding-left: 2rem;"
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+                <span>
+                  Server
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="dropdown-item d-flex align-items-center"
+                style="padding-left: 2rem;"
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+                <span>
+                  Date and time
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="dropdown-item d-flex align-items-center"
+                style="padding-left: 2rem;"
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+                <span>
+                  Download [Mb/s]
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="dropdown-item d-flex align-items-center"
+                style="padding-left: 2rem;"
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+                <span>
+                  Upload [Mb/s]
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="dropdown-item d-flex align-items-center"
+                style="padding-left: 2rem;"
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+                <span>
+                  Jitter [ms]
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="dropdown-item d-flex align-items-center"
+                style="padding-left: 2rem;"
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+                <span>
+                  Ping [ms]
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="table-responsive"
+      >
+        <table
+          class="table table-hover text-nowrap"
+        >
+          <thead
+            class="table-light"
           >
-            All
-          </option>
-        </select>
-      </nav>
+            <tr
+              role="row"
+            >
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  Server
+                </button>
+              </th>
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  Date and time
+                </button>
+              </th>
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort descending"
+                  type="button"
+                >
+                  Download [Mb/s]
+                </button>
+              </th>
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort descending"
+                  type="button"
+                >
+                  Upload [Mb/s]
+                </button>
+              </th>
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort descending"
+                  type="button"
+                >
+                  Jitter [ms]
+                </button>
+              </th>
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort descending"
+                  type="button"
+                >
+                  Ping [ms]
+                </button>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class="align-middle"
+            >
+              <td>
+                Prague, Czech Republic (CESNET)
+              </td>
+              <td>
+                2/9/2023 6:46 PM
+              </td>
+              <td>
+                800.07
+              </td>
+              <td>
+                35.55
+              </td>
+              <td>
+                0.3
+              </td>
+              <td>
+                15.91
+              </td>
+            </tr>
+            <tr
+              class="align-middle"
+            >
+              <td>
+                Prague, Czech Republic (CESNET)
+              </td>
+              <td>
+                2/9/2023 6:45 PM
+              </td>
+              <td>
+                664.07
+              </td>
+              <td>
+                35.55
+              </td>
+              <td>
+                0.2
+              </td>
+              <td>
+                7.91
+              </td>
+            </tr>
+            <tr
+              class="align-middle"
+            >
+              <td>
+                Prague, Czech Republic (CESNET)
+              </td>
+              <td>
+                2/9/2023 6:44 PM
+              </td>
+              <td>
+                663.07
+              </td>
+              <td>
+                35.55
+              </td>
+              <td>
+                0.1
+              </td>
+              <td>
+                1
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </DocumentFragment>
