@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reForis LibreSpeed 0.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2025-04-25 15:30+0200\n"
-"PO-Revision-Date: 2023-09-08 11:57+0000\n"
+"POT-Creation-Date: 2025-10-31 23:55+0300\n"
+"PO-Revision-Date: 2025-07-16 23:02+0000\n"
 "Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
 "Language: de\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris"
@@ -58,14 +58,13 @@ msgstr "Ergebnisse"
 
 #: js/src/SpeedTest/Results.js:71
 msgid "Refresh"
-msgstr "Neu laden"
+msgstr "Neuladen"
 
 #: js/src/SpeedTest/ResultsTable.js:30
 msgid "Server"
 msgstr "Server"
 
 #: js/src/SpeedTest/ResultsTable.js:34
-#, fuzzy
 msgid "Date and time"
 msgstr "Datum und Zeit"
 
