@@ -9,15 +9,17 @@ msgstr ""
 "Project-Id-Version: reForis LibreSpeed 0.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2025-10-31 23:55+0300\n"
-"PO-Revision-Date: 2023-01-30 17:55+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2026-03-15 19:09+0000\n"
+"Last-Translator: Fln <weblate.org@fln.lt>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/turris/"
+"reforis-librespeed-plugin/lt/>\n"
 "Language: lt\n"
-"Language-Team: lt <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.17-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/LibreSpeed.js:24
@@ -25,40 +27,44 @@ msgid ""
 "LibreSpeed measures your internet parameters like upload, download, and "
 "response time."
 msgstr ""
+"LibreSpeed matuoja jūsų interneto ryšio parametrus tokius kaip išsiuntimo "
+"greitis, atsiuntimo greitis, ir atsako laikas."
 
 #: js/src/app.js:15
 msgid "LibreSpeed"
-msgstr ""
+msgstr "LibreSpeed"
 
 #: js/src/SpeedTest/SpeedTest.js:33 js/src/app.js:21
 msgid "Speed Test"
-msgstr ""
+msgstr "Greičio testas"
 
 #: js/src/Settings/AutostartForm.js:30 js/src/app.js:26
 msgid "Autostart Settings"
-msgstr ""
+msgstr "Automatinio paleidimo nustatymai"
 
 #: js/src/Settings/AutostartForm.js:32
 msgid ""
 "Here you can enable Autostart. The measurement will occur once daily, and"
 " the time is picked randomly during the night hours."
 msgstr ""
+"Čia galite įjungti automatinį paleidimą. Matavimai bus atliekami kartą per "
+"dieną, laikas bus parenkamas atsitiktinai, bet tik nakties metu."
 
 #: js/src/Settings/AutostartForm.js:37
 msgid "Enable Autostart"
-msgstr ""
+msgstr "Įjungti automatinį paleidimą"
 
 #: js/src/SpeedTest/Results.js:60
 msgid "Results"
-msgstr ""
+msgstr "Rezultatai"
 
 #: js/src/SpeedTest/Results.js:71
 msgid "Refresh"
-msgstr ""
+msgstr "Pakartoti"
 
 #: js/src/SpeedTest/ResultsTable.js:30
 msgid "Server"
-msgstr ""
+msgstr "Serveris"
 
 #: js/src/SpeedTest/ResultsTable.js:34
 msgid "Date and time"
@@ -117,4 +123,3 @@ msgstr ""
 
 #~ msgid "Date and Time"
 #~ msgstr ""
-
