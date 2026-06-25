@@ -24,6 +24,9 @@ ResultsTable.propTypes = {
 };
 
 function ResultsTable({ performed_tests: tests }) {
+    const localizedFormattedTime = (time) =>
+        moment(time).locale(ForisTranslations.locale).format("l LT");
+
     const columns = [
         {
             accessorKey: "server",
@@ -32,6 +35,12 @@ function ResultsTable({ performed_tests: tests }) {
         {
             accessorKey: "time",
             header: _("Date and time"),
+            // Keep the raw ISO timestamp as the cell value so the column is
+            // sorted chronologically; only format it for display.
+            cell: ({ getValue }) => localizedFormattedTime(getValue()),
+            sortingFn: (rowA, rowB, columnId) =>
+                new Date(rowA.getValue(columnId)) -
+                new Date(rowB.getValue(columnId)),
         },
         {
             accessorKey: "speed_download",
@@ -51,13 +60,10 @@ function ResultsTable({ performed_tests: tests }) {
         },
     ];
 
-    const localizedFormattedTime = (time) =>
-        moment(time).locale(ForisTranslations.locale).format("l LT");
-
     const data = tests
         .map((test) => ({
             server: test.server,
-            time: localizedFormattedTime(test.time),
+            time: test.time,
             speed_download: test.speed_download,
             speed_upload: test.speed_upload,
             jitter: test.jitter,
