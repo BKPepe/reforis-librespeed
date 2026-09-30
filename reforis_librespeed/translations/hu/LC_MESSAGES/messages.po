@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reForis LibreSpeed 0.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2025-10-31 23:55+0300\n"
-"PO-Revision-Date: 2026-09-30 16:55+0000\n"
+"PO-Revision-Date: 2026-10-01 07:32+0000\n"
 "Last-Translator: Kövecses József <kovecses@gmail.com>\n"
 "Language: hu\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/turris/reforis-"
@@ -80,37 +80,39 @@ msgstr "Feltöltés [Mb/s]"
 
 #: js/src/SpeedTest/ResultsTable.js:46
 msgid "Jitter [ms]"
-msgstr ""
+msgstr "Késleltetés-ingadozás [ms]"
 
 #: js/src/SpeedTest/ResultsTable.js:50
 msgid "Ping [ms]"
-msgstr ""
+msgstr "Válaszidő [ms]"
 
 #: js/src/SpeedTest/ResultsTable.js:72
 msgid ""
 "No tests have been performed lately. Try to start a new test or re-"
 "download data."
 msgstr ""
+"Az utóbbi időben nem végeztek teszteket. Próbálj meg új tesztet indítani, "
+"vagy töltsd le újra az adatokat."
 
 #: js/src/SpeedTest/SpeedTestButton.js:28
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: js/src/SpeedTest/SpeedTestProgress.js:31
 msgid "Measuring…"
-msgstr ""
+msgstr "Mérés folyamatban…"
 
 #: js/src/SpeedTest/hooks.js:47
 msgid "Speed test finished successfully."
-msgstr ""
+msgstr "A sebességteszt sikeresen befejeződött."
 
 #: js/src/SpeedTest/hooks.js:51
 msgid "Speed test failed."
-msgstr ""
+msgstr "A sebességteszt sikertelen volt."
 
 #: reforis_librespeed/__init__.py:49
 msgid "Cannot update LibreSpeed settings."
-msgstr ""
+msgstr "A LibreSpeed beállításai nem frissíthetők."
 
 #~ msgid "Librespeed"
 #~ msgstr ""
