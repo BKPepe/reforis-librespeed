@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reForis LibreSpeed 0.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2025-10-31 23:55+0300\n"
-"PO-Revision-Date: 2026-09-25 17:51+0000\n"
+"PO-Revision-Date: 2026-09-30 16:55+0000\n"
 "Last-Translator: Kövecses József <kovecses@gmail.com>\n"
 "Language: hu\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/turris/reforis-"
@@ -26,6 +26,8 @@ msgid ""
 "LibreSpeed measures your internet parameters like upload, download, and "
 "response time."
 msgstr ""
+"A LibreSpeed méri az internetkapcsolat paramétereit, például a feltöltési és "
+"letöltési sebességet, valamint a válaszidőt."
 
 #: js/src/app.js:15
 msgid "LibreSpeed"
@@ -33,25 +35,28 @@ msgstr "LibreSpeed"
 
 #: js/src/SpeedTest/SpeedTest.js:33 js/src/app.js:21
 msgid "Speed Test"
-msgstr ""
+msgstr "Sebességteszt"
 
 #: js/src/Settings/AutostartForm.js:30 js/src/app.js:26
 msgid "Autostart Settings"
-msgstr ""
+msgstr "Automatikus indítás beállításai"
 
 #: js/src/Settings/AutostartForm.js:32
 msgid ""
 "Here you can enable Autostart. The measurement will occur once daily, and"
 " the time is picked randomly during the night hours."
 msgstr ""
+"Itt engedélyezheti az automatikus indítást. A mérés naponta egyszer "
+"történik, időpontját pedig véletlenszerűen választja ki a rendszer az "
+"éjszakai órákban."
 
 #: js/src/Settings/AutostartForm.js:37
 msgid "Enable Autostart"
-msgstr ""
+msgstr "Automatikus indítás engedélyezése"
 
 #: js/src/SpeedTest/Results.js:60
 msgid "Results"
-msgstr ""
+msgstr "Eredmények"
 
 #: js/src/SpeedTest/Results.js:71
 msgid "Refresh"
@@ -63,15 +68,15 @@ msgstr "Szerver"
 
 #: js/src/SpeedTest/ResultsTable.js:34
 msgid "Date and time"
-msgstr ""
+msgstr "Dátum és idő"
 
 #: js/src/SpeedTest/ResultsTable.js:38
 msgid "Download [Mb/s]"
-msgstr ""
+msgstr "Letöltés [Mb/s]"
 
 #: js/src/SpeedTest/ResultsTable.js:42
 msgid "Upload [Mb/s]"
-msgstr ""
+msgstr "Feltöltés [Mb/s]"
 
 #: js/src/SpeedTest/ResultsTable.js:46
 msgid "Jitter [ms]"
