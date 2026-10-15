@@ -1,109 +1,117 @@
 # Hungarian translations for reForis LibreSpeed.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis LibreSpeed
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: reForis LibreSpeed 0.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2025-10-31 23:55+0300\n"
-"PO-Revision-Date: 2023-01-30 17:55+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-10-15 20:29+0300\n"
+"PO-Revision-Date: 2026-10-01 07:32+0000\n"
+"Last-Translator: Kövecses József <kovecses@gmail.com>\n"
 "Language: hu\n"
-"Language-Team: hu <LL@li.org>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/turris"
+"/reforis-librespeed-plugin/hu/>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/LibreSpeed.js:24
 msgid ""
 "LibreSpeed measures your internet parameters like upload, download, and "
 "response time."
 msgstr ""
+"A LibreSpeed méri az internetkapcsolat paramétereit, például a feltöltési"
+" és letöltési sebességet, valamint a válaszidőt."
 
 #: js/src/app.js:15
 msgid "LibreSpeed"
-msgstr ""
+msgstr "LibreSpeed"
 
 #: js/src/SpeedTest/SpeedTest.js:33 js/src/app.js:21
 msgid "Speed Test"
-msgstr ""
+msgstr "Sebességteszt"
 
 #: js/src/Settings/AutostartForm.js:30 js/src/app.js:26
 msgid "Autostart Settings"
-msgstr ""
+msgstr "Automatikus indítás beállításai"
 
 #: js/src/Settings/AutostartForm.js:32
 msgid ""
 "Here you can enable Autostart. The measurement will occur once daily, and"
 " the time is picked randomly during the night hours."
 msgstr ""
+"Itt engedélyezheti az automatikus indítást. A mérés naponta egyszer "
+"történik, időpontját pedig véletlenszerűen választja ki a rendszer az "
+"éjszakai órákban."
 
 #: js/src/Settings/AutostartForm.js:37
 msgid "Enable Autostart"
-msgstr ""
+msgstr "Automatikus indítás engedélyezése"
 
 #: js/src/SpeedTest/Results.js:60
 msgid "Results"
-msgstr ""
+msgstr "Eredmények"
 
 #: js/src/SpeedTest/Results.js:71
 msgid "Refresh"
-msgstr ""
+msgstr "Frissítés"
 
-#: js/src/SpeedTest/ResultsTable.js:30
+#: js/src/SpeedTest/ResultsTable.js:33
 msgid "Server"
-msgstr ""
+msgstr "Szerver"
 
-#: js/src/SpeedTest/ResultsTable.js:34
+#: js/src/SpeedTest/ResultsTable.js:37
 msgid "Date and time"
-msgstr ""
+msgstr "Dátum és idő"
 
-#: js/src/SpeedTest/ResultsTable.js:38
+#: js/src/SpeedTest/ResultsTable.js:47
 msgid "Download [Mb/s]"
-msgstr ""
+msgstr "Letöltés [Mb/s]"
 
-#: js/src/SpeedTest/ResultsTable.js:42
+#: js/src/SpeedTest/ResultsTable.js:51
 msgid "Upload [Mb/s]"
-msgstr ""
+msgstr "Feltöltés [Mb/s]"
 
-#: js/src/SpeedTest/ResultsTable.js:46
+#: js/src/SpeedTest/ResultsTable.js:55
 msgid "Jitter [ms]"
-msgstr ""
+msgstr "Késleltetés-ingadozás [ms]"
 
-#: js/src/SpeedTest/ResultsTable.js:50
+#: js/src/SpeedTest/ResultsTable.js:59
 msgid "Ping [ms]"
-msgstr ""
+msgstr "Válaszidő [ms]"
 
-#: js/src/SpeedTest/ResultsTable.js:72
+#: js/src/SpeedTest/ResultsTable.js:78
 msgid ""
 "No tests have been performed lately. Try to start a new test or re-"
 "download data."
 msgstr ""
+"Az utóbbi időben nem végeztek teszteket. Próbálj meg új tesztet indítani,"
+" vagy töltsd le újra az adatokat."
 
 #: js/src/SpeedTest/SpeedTestButton.js:28
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: js/src/SpeedTest/SpeedTestProgress.js:31
 msgid "Measuring…"
-msgstr ""
+msgstr "Mérés folyamatban…"
 
 #: js/src/SpeedTest/hooks.js:47
 msgid "Speed test finished successfully."
-msgstr ""
+msgstr "A sebességteszt sikeresen befejeződött."
 
 #: js/src/SpeedTest/hooks.js:51
 msgid "Speed test failed."
-msgstr ""
+msgstr "A sebességteszt sikertelen volt."
 
 #: reforis_librespeed/__init__.py:49
 msgid "Cannot update LibreSpeed settings."
-msgstr ""
+msgstr "A LibreSpeed beállításai nem frissíthetők."
 
 #~ msgid "Librespeed"
 #~ msgstr ""

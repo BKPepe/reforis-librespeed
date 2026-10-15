@@ -1,15 +1,15 @@
 # Swedish translations for reForis LibreSpeed.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis LibreSpeed
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: reForis LibreSpeed 0.1.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2025-10-31 23:55+0300\n"
-"PO-Revision-Date: 2024-12-29 08:00+0000\n"
+"POT-Creation-Date: 2026-10-15 20:29+0300\n"
+"PO-Revision-Date: 2026-09-04 14:07+0000\n"
 "Last-Translator: Kristoffer Grundström "
 "<swedishsailfishosuser@tutanota.com>\n"
 "Language: sv\n"
@@ -19,7 +19,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/LibreSpeed.js:24
 msgid ""
@@ -35,11 +35,11 @@ msgstr "LibreSpeed"
 
 #: js/src/SpeedTest/SpeedTest.js:33 js/src/app.js:21
 msgid "Speed Test"
-msgstr ""
+msgstr "Hastighetstest"
 
 #: js/src/Settings/AutostartForm.js:30 js/src/app.js:26
 msgid "Autostart Settings"
-msgstr ""
+msgstr "Inställningar för automatiskt start"
 
 #: js/src/Settings/AutostartForm.js:32
 msgid ""
@@ -51,7 +51,7 @@ msgstr ""
 
 #: js/src/Settings/AutostartForm.js:37
 msgid "Enable Autostart"
-msgstr ""
+msgstr "Aktivera automatisk start"
 
 #: js/src/SpeedTest/Results.js:60
 msgid "Results"
@@ -61,31 +61,31 @@ msgstr "Resultat"
 msgid "Refresh"
 msgstr "Uppdatera"
 
-#: js/src/SpeedTest/ResultsTable.js:30
+#: js/src/SpeedTest/ResultsTable.js:33
 msgid "Server"
 msgstr "Server"
 
-#: js/src/SpeedTest/ResultsTable.js:34
+#: js/src/SpeedTest/ResultsTable.js:37
 msgid "Date and time"
 msgstr "Datum och tid"
 
-#: js/src/SpeedTest/ResultsTable.js:38
+#: js/src/SpeedTest/ResultsTable.js:47
 msgid "Download [Mb/s]"
-msgstr ""
+msgstr "Hämtning [Mb/s]"
 
-#: js/src/SpeedTest/ResultsTable.js:42
+#: js/src/SpeedTest/ResultsTable.js:51
 msgid "Upload [Mb/s]"
-msgstr ""
+msgstr "Uppladdning [Mb/s]"
 
-#: js/src/SpeedTest/ResultsTable.js:46
+#: js/src/SpeedTest/ResultsTable.js:55
 msgid "Jitter [ms]"
-msgstr ""
+msgstr "Jitter [ms]"
 
-#: js/src/SpeedTest/ResultsTable.js:50
+#: js/src/SpeedTest/ResultsTable.js:59
 msgid "Ping [ms]"
 msgstr "Ping [ms]"
 
-#: js/src/SpeedTest/ResultsTable.js:72
+#: js/src/SpeedTest/ResultsTable.js:78
 msgid ""
 "No tests have been performed lately. Try to start a new test or re-"
 "download data."
